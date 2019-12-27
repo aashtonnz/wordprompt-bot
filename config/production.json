@@ -1,0 +1,6 @@
+{
+  "wordpromptUrl": "http://www.wordprompt.com",
+  "username": "prompt-bot",
+  "password": "houseplant",
+  "intervalSec": "1000"
+}

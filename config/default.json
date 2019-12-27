@@ -1,0 +1,6 @@
+{
+  "wordpromptUrl": "http://localhost:5000",
+  "username": "prompt-bot",
+  "password": "houseplant",
+  "intervalSec": "10"
+}
