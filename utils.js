@@ -1,13 +1,13 @@
 const defaultAxios = require("axios");
 const config = require("config");
 
-const timeoutMs = 1000 * Number(config.get("intervalSec"));
+const TIMEOUT_MS = 20000;
 
 const wordpromptUrl = config.get("wordpromptUrl");
 
 const axios = defaultAxios.create({
   baseURL: `${wordpromptUrl}/api/`,
-  timeout: timeoutMs,
+  timeout: TIMEOUT_MS,
   headers: { "Content-Type": "application/json" }
 });
 

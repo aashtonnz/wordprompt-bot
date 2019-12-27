@@ -4,6 +4,7 @@ const config = require("config");
 
 const name = config.get("username");
 const password = config.get("password");
+const intervalMs = 1000 * Number(config.get("intervalSec"));
 
 const login = async () => {
   const body = JSON.stringify({ name, password });
@@ -36,5 +37,5 @@ const createPrompt = async content => {
     createPrompt(prompts[index])
       .then(() => console.log(`Prompt ${index} created`))
       .catch(console.error);
-  }, 5000);
+  }, intervalMs);
 })();
