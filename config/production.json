@@ -1,6 +1,6 @@
 {
   "wordpromptUrl": "http://www.wordprompt.com",
   "username": "prompt-bot",
-  "password": "houseplant",
-  "intervalSec": "1000"
+  "password": "cactus",
+  "intervalSec": "28800"
 }
