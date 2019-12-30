@@ -1,5 +1,5 @@
 {
-  "wordpromptUrl": "http://www.wordprompt.com",
+  "wordpromptUrl": "https://www.wordprompt.com",
   "username": "prompt-bot",
   "password": "cactus",
   "intervalSec": "28800"
