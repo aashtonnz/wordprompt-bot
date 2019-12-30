@@ -481,7 +481,7 @@ module.exports = [
   "Write about your best friend as if they were a stranger.",
   "If you could build a soundtrack to your life, who would be on it?",
   "If you suddenly gained the ability to tell whether someone was lying, would you use it?",
-  "How would handle life in an arctic climate?",
+  "How would you handle life in an arctic climate?",
   "Describe your perfect career or job. Where would it be? Would you want financial or personal fulfillment? What kind of people would you work with?",
   "Who is your ideal presidential candidate?",
   "What kind of jobs have you had in the past?",
